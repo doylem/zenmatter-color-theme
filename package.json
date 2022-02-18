@@ -1,0 +1,21 @@
+{
+    "name": "zenmatter-color-theme",
+    "displayName": "zenmatter-color-theme",
+    "description": "A beautiful color theme for VS Code that's easy on the eyes and gets out of the way. Ohmmmm.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "zenmatter",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zenmatter-color-theme.json"
+            }
+        ]
+    }
+}
